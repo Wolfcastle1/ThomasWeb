@@ -13,9 +13,21 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.myApp-header {
+  background-color: #282c34;
+  min-height: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +47,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.home-grid{
+  display: grid; 
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-gap: 1vw;
+  padding: 10px;
+}
+
+.bubble-div {
+  /* background-color: #53d3f7;  */
+  background-image: linear-gradient( #2685DE88, #2685DEff);
+  border-radius: 15px;
+}
+
+.content-back {
+  background-color: #2BFFF1;
+  min-height: 90vh;
 }
